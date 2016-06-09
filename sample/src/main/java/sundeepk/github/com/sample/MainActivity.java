@@ -57,6 +57,7 @@ public class MainActivity extends ActionBarActivity {
         addEvents(compactCalendarView, -1);
         addEvents(compactCalendarView, Calendar.DECEMBER);
         addEvents(compactCalendarView, Calendar.AUGUST);
+        addEvents(compactCalendarView,Calendar.JUNE);
         compactCalendarView.invalidate();
 
         // below line will display Sunday as the first day of the week
